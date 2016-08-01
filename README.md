@@ -1,4 +1,4 @@
-# TurtlebotGuideRobot-Text-UI-
+#TurtlebotGuideRobot-Text-UI-
 Application written and developed by Vaibhav Pachalla during Robotics Research internship at UNC Charlotte
 
 Turtlebot Guide Robot with text interface designed to be used to guide visitors to various computer science offices in Woodward Hall at UNC Charlotte
@@ -18,9 +18,9 @@ How to run this application:
 3. On the Turtlebot, run the follwing command "export TURTLEBOT_MAP_FILE=/path/to/TurtlebotGuideRobot-Text-UI-/Directory/mapV3.yaml"
 4. On Turtlebot computer, run "roslauch turtlebot_navigation amcl_demo.launch"
 5. On your computer, run RVIZ
-#Pre-Groovy
+Pre-Groovy
 rosrun rviz rviz -d `rospack find turtlebot_navigation`/nav_rviz.vcg
-# Groovy or later
+Groovy or later
 roslaunch turtlebot_rviz_launchers view_navigation.launch --screen
 6. On RVIZ, set the 2D pose estimate:
 When starting up, the TurtleBot does not know where it is. To provide it its approximate location on the map:

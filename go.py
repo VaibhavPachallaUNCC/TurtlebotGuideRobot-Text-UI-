@@ -1,3 +1,7 @@
+# Written and developed by Vaibhav Pachalla in June, 2016
+# This progam is designed to take a destination input from a user and send the appropraite destination to the turtlebot for it to
+# autonomously navigate to the desired location.
+
 #!/usr/bin/env python
 #Facing right
 #orientation: { x: 0, y: 0, z: -0.755628311914, w: 0.655000652087 }

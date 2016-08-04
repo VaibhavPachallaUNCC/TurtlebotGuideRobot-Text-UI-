@@ -16,7 +16,7 @@ How to run this application:
 1. Clone this git directory on to your Workstation and onto your Turtlebot computer
 2. Bringup Turtlebot (http://wiki.ros.org/turtlebot_bringup/Tutorials/indigo/TurtleBot%20Bringup)
 3. On the Turtlebot, run the follwing command "export TURTLEBOT_MAP_FILE=/path/to/TurtlebotGuideRobot-Text-UI-/Directory/mapV3.yaml"
-4. On Turtlebot computer, run "roslauch turtlebot_navigation amcl_demo.launch"
+4. On Turtlebot computer, run "roslaunch turtlebot_navigation amcl_demo.launch"
 5. On your computer, run RVIZ:
 Pre-Groovy
 rosrun rviz rviz -d `rospack find turtlebot_navigation`/nav_rviz.vcg

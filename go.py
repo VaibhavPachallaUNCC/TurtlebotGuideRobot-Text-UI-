@@ -1,8 +1,10 @@
+#!/usr/bin/env python
+# Note: The above import statement must always be the first line of this progrm for this program to function as a linux executable
+# Link for more info: http://stackoverflow.com/questions/304883/what-do-i-use-on-linux-to-make-a-python-program-executable
 # Written and developed by Vaibhav Pachalla in June, 2016
 # This progam is designed to take a destination input from a user and send the appropraite destination to the turtlebot for it to
 # autonomously navigate to the desired location.
 
-#!/usr/bin/env python
 #Facing right
 #orientation: { x: 0, y: 0, z: -0.755628311914, w: 0.655000652087 }
 
@@ -138,4 +140,3 @@ elif(dest == "210G"):
 
 elif(dest == "210F"):
     os.system("rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped '{header: {stamp: now, frame_id: map}, pose: {position: {x: 46.6593284607, y: -20.5947780609, z: 0.0}, orientation: { x: 0, y: 0, z: 0.663196672097 , w: 0.748445171084 }}}'")
-

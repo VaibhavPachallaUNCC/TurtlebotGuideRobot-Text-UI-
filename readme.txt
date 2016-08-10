@@ -1,9 +1,10 @@
 #TurtlebotGuideRobot-Text-UI-
-Application written and developed by Vaibhav Pachalla during Robotics Research internship at UNC Charlotte
+Application written and developed by Vaibhav Pachalla during Robotics Research internship at UNC Charlotte. Application tested to run on Ubuntu 14.04 64x. 
 
 I have Turtlebot Guide Robot with text interface designed to be used to guide visitors to various computer science offices in Woodward Hall at UNC Charlotte. I have used the Turtlebot robot platform to map an area of Woodword Hall at UNC Charlotte. I then wrote a python program that could transmit a destination to the turtlebot using the os.system() command which could run linux commandline commands.
 
 Prerequisites to run the program:
+
     1. Follow this tutorial to install the necessary software on the Turtlebot:               http://wiki.ros.org/turtlebot/Tutorials/indigo/Turtlebot%20Installation
     2. Follow this tutorial to install the necessary software on your PC:
     http://wiki.ros.org/turtlebot/Tutorials/indigo/PC%20Installation
@@ -11,6 +12,7 @@ Prerequisites to run the program:
     http://wiki.ros.org/turtlebot/Tutorials/indigo/Network%20Configuration
     4. Install turtlebot_navigation package on turtlebot computer:
     run the following command "sudo apt-get install ros-<your ros distro (eg. indigo, jade, kinetic, etc.)>-turtlebot-navigation
+    5. 
 
 How to run this application:
 1. Clone this git directory on to your Workstation and onto your Turtlebot computer

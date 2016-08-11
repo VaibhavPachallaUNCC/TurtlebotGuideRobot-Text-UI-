@@ -3,10 +3,11 @@ Application written and developed by Vaibhav Pachalla during Robotics Research i
 
 Note: Application tested to run on Ubuntu 14.04 64x
 
-    I have Turtlebot Guide Robot with text interface designed to be used to guide visitors to various
-computer science offices in Woodward Hall at UNC Charlotte. I have used the Turtlebot robot platform
-to map an area of Woodword Hall at UNC Charlotte. I then wrote a python program that could transmit 
-a destination to the turtlebot. 
+    I have Turtlebot Guide Robot with text interface designed to be used to guide visitors to various computer
+science offices in Woodward Hall at UNC Charlotte. I have used the Turtlebot robot platform to map an area
+of Woodword Hall at UNC Charlotte. I then wrote a python program that could transmit destinations to the 
+Turtlebot robot.
+ 
 
 Prerequisites to run the program:
 

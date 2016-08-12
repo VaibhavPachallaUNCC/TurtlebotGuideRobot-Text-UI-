@@ -1,5 +1,5 @@
-#TurtlebotGuideRobot-Text-UI-
-Application written and developed by Vaibhav Pachalla during Robotics Research internship at UNC Charlotte.
+                                                TurtlebotGuideRobot-Text-UI-
+                                                    By: Vaibhav Pachalla 
 
 Note: Application tested to run on Ubuntu 14.04 64x
 
